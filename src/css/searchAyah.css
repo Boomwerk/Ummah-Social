@@ -1,0 +1,54 @@
+.searchCoran{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box input{
+    width: 225px;
+}
+
+.ayahs{
+    
+    background: #A6DADB;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -ms-border-radius: 5px 5px 5px 5px;
+    -o-border-radius: 5px 5px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.ayah{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+    background-color: #73c27b;
+    box-shadow: 2px 2px 2px #4b7172;
+
+    border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -ms-border-radius: 5px 5px 5px 5px;
+    -o-border-radius: 5px 5px 5px 5px;
+    margin-top: 25px;
+}
+
+.ayah p{
+    font-family: sans-serif;
+}
+

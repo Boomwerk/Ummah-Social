@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+*{
+    font-family: 'Lily Script One', cursive;
+}
+@import 'nav.css';
+@import 'home.css';
+@import 'footer.css';
+@import 'coran.css';
+@import 'searchAyah.css';
+@import 'aleatoirAyah.css';

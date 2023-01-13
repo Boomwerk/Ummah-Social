@@ -1,0 +1,46 @@
+.hadith{
+    width:36%;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    background: #27CA37;
+    padding:10px 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.hadith h4{
+    margin-top:3px;
+}
+.hadith p{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+    margin: 0;
+    margin-bottom: 3px;
+}
+
+@media screen and (max-width:850px) {
+
+    .hadith {
+        width: 80%;
+        margin-top: 25px;
+    }
+
+    
+
+    
+
+
+}
+
+
+

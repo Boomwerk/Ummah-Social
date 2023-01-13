@@ -1,0 +1,7 @@
+footer{
+    padding: 25px;
+    background: #27CA37;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

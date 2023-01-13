@@ -1,0 +1,74 @@
+main{
+    background-image: url("../../public/img/bghome1.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 0px 100px;
+    padding-bottom: 178px;
+    padding-top: 40px;
+}
+
+.coran-and-hadith{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 35px;
+    
+}
+
+.coran{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../public/img/bgcoran.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 35px 106px;
+}   
+
+.coran:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+
+.coran p{
+    font-size: 25px;
+}
+
+
+
+
+
+.message{
+    padding: 50px 50px;
+}
+
+.message p{
+    font-family: sans-serif;
+}
+
+@media screen and (max-width:850px) {
+
+    .coran-and-hadith{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+   
+
+    .coran{
+        padding: 30px 0px;
+        width: 375px;
+    }
+
+
+}

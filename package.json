@@ -2,7 +2,7 @@
   "name": "ummahsocial",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Boomwerk.github.io/Ummah-Social",
+  "homepage": "https://boomwerk.github.io/Ummah-Social",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

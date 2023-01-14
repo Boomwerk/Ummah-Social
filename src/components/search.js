@@ -21,7 +21,7 @@ function Search(){
     return (
         <div className="divSearch">
             <input type="search" name="" id="" placeholder="rechercher dans le coran" onChange={handleChange}/>
-            <img src="/img/search.png" alt="logo rechercher" className="searchLogo" onClick={submitValue}/>
+            <img src="img/search.png" alt="logo rechercher" className="searchLogo" onClick={submitValue}/>
         </div>
     )
 }

@@ -13,7 +13,7 @@ class Surah extends React.Component{
 
     componentDidMount(){
 
-        fetch("http://api.alquran.cloud/v1/surah")
+        fetch("https://api.alquran.cloud/v1/surah")
         .then( (body) => {
             return body.json();
         })

@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Coran from './pages/coran';
 import SearchAyah from './pages/searchAyah';
 
+
 function App() {
 
   
@@ -15,11 +16,11 @@ function App() {
     
     <div className="App">
       <Nav />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/coran" element={<Coran />} />
-        <Route path="/searchAyah/:data" element={<SearchAyah />} />
-      </Routes>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/coran" element={<Coran />} />
+          <Route path="/searchAyah/:data" element={<SearchAyah />} />
+        </Routes>
       <Footer />
     </div>
   );

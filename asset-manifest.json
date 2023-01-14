@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Ummah-Social/static/css/main.9a1c0f3a.css",
-    "main.js": "/Ummah-Social/static/js/main.3af8c131.js",
+    "main.js": "/Ummah-Social/static/js/main.94b7b05c.js",
     "static/js/787.4c86d09c.chunk.js": "/Ummah-Social/static/js/787.4c86d09c.chunk.js",
     "static/media/bghome1.png": "/Ummah-Social/static/media/bghome1.751f2c4044a11608116e.png",
     "static/media/bgcoran.png": "/Ummah-Social/static/media/bgcoran.edf1254751da30013e83.png",
     "index.html": "/Ummah-Social/index.html",
     "main.9a1c0f3a.css.map": "/Ummah-Social/static/css/main.9a1c0f3a.css.map",
-    "main.3af8c131.js.map": "/Ummah-Social/static/js/main.3af8c131.js.map",
+    "main.94b7b05c.js.map": "/Ummah-Social/static/js/main.94b7b05c.js.map",
     "787.4c86d09c.chunk.js.map": "/Ummah-Social/static/js/787.4c86d09c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9a1c0f3a.css",
-    "static/js/main.3af8c131.js"
+    "static/js/main.94b7b05c.js"
   ]
 }

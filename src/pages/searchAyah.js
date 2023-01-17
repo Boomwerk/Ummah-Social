@@ -13,7 +13,7 @@ function SearchAyah(){
     const [loading, setLoading] = useState(true);
 
     useEffect(() =>{
-        fetch(`http://api.alquran.cloud/v1/search/${params.data}/all/fr`)
+        fetch(`https://api.alquran.cloud/v1/search/${params.data}/all/fr`)
         .then((body) => {
             if(body.status == 204){
                 
@@ -35,7 +35,7 @@ function SearchAyah(){
 
     let handleChange = (e) => {
 
-        fetch(`http://api.alquran.cloud/v1/search/${e.target.value}/all/fr`)
+        fetch(`https://api.alquran.cloud/v1/search/${e.target.value}/all/fr`)
         .then((body) => {
             if(body.status == 204){
                 

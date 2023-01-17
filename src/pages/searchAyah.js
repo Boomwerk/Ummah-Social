@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import searchImg from "../img/search.png";
-import loadingImg from "../img/loading.jpg" 
+import loadingImg from "./../img/loading.jpg" 
 
 
 function SearchAyah(){

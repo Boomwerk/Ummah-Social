@@ -23,7 +23,7 @@ nav{
 }
 
 nav input{
-    width: 100%;
+    width: 80%;
     border-radius: 50px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
@@ -50,6 +50,19 @@ nav a{
     padding: 0px 15px;
    
 }
+
+.title{
+    height: 0 !important;
+    padding-top: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white !important;
+    font-size: 14px;
+    margin: 0 !important;
+}
+
+
 
 .active{
     background-color: white;

@@ -16,7 +16,7 @@ export default function Nav(){
         <header>
             <nav>
                 
-                <NavLink to="/">Ummah-Social</NavLink>
+                <NavLink to="/" className="title">Ummah-Social</NavLink>
 
                 <Search/>
 

@@ -8,7 +8,7 @@ export default function home(){
         <>
             <main>
 
-                <img src={bgHome} alt="image de fond" />
+                <img src={bgHome} alt="image de fond" className='bghome'/>
 
                 <div className="coran-and-hadith ">
                     <Link to="/coran" className="coran animate__animated animate__fadeInLeft">

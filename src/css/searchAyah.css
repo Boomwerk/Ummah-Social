@@ -55,11 +55,16 @@
 }
 .searchbar{
     padding: 25px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .searchbar input{
     background: none;
     padding: 11px 30px;
-    width: 400px;
+    width: 100%;
 }
 
 .searchbar img{

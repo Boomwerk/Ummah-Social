@@ -1,11 +1,14 @@
 import { useState } from "react";
 import Surah from "../components/Surah";
 import Ayah from "../components/Ayah";
+import { useRef } from "react";
+import bgHome from "../img/bghome.png"
 
 export default function Coran(){
 
     const [isOpen, setIsOpen] = useState(true);
     const [ ayahNumber, setAyahNumber] = useState(1);
+    const scroll = useRef(null)
     
     function openSurat(){
 
@@ -16,6 +19,7 @@ export default function Coran(){
     function getAyah(number){
        
         setAyahNumber(number);
+        scroll.current.scrollTop = 0;
     }
 
 
@@ -23,7 +27,7 @@ export default function Coran(){
     return <section>
         
         <div className="bg-coran">
-            <img src="img/bghome.png" alt="image ou il y a écrit Au nom de dieu le tout miséricordieux, le très miséricordieux" />
+            <img src={bgHome} alt="image ou il y a écrit Au nom de dieu le tout miséricordieux, le très miséricordieux" />
         </div>
 
         <div className="media">
@@ -34,12 +38,12 @@ export default function Coran(){
                     <Surah getAyah={getAyah} openSurat={openSurat}/>
                     
                 </div>
-                <div className="open" onClick={ () => openSurat()}> open </div>
+                <div className="open" onClick={ () => openSurat()}> {isOpen ? "fermer":"Ouvrir"} </div>
                
                
             </div>
             
-            <div className="verset">
+            <div className="verset" ref={scroll}>
                 <Ayah number={ayahNumber} />
                 
             </div>

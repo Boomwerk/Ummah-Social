@@ -17,9 +17,10 @@ function App() {
     <div className="App">
       <Nav />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/coran" element={<Coran />} />
-          <Route path="/searchAyah/:data" element={<SearchAyah />} />
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/coran" element={<Coran />} />
+          <Route exact path="/searchAyah/:data" element={<SearchAyah />} />
+          
         </Routes>
       <Footer />
     </div>

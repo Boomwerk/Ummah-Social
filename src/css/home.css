@@ -1,5 +1,5 @@
 main{
-    background-image: url("../../public/img/bghome1.png");
+    background-image: url("../img/bghome1.png");
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,7 +24,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("../../public/img/bgcoran.png");
+    background-image: url("../img/bgcoran.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

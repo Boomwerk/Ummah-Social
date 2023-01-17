@@ -49,8 +49,6 @@ section{
 }
 
 
-
-
 .allSurat::-webkit-scrollbar {
     width: 12px;
 }
@@ -112,6 +110,11 @@ section{
     font-family: sans-serif;
 }
 
+.loading{
+    display: flex;
+    justify-content: center;
+    border-bottom: unset !important;
+}
 
 
 

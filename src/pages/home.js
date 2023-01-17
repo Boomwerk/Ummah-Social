@@ -1,5 +1,6 @@
 import {Link} from 'react-router-dom';
 import AleatoirAyah from '../components/AleatoirAyah';
+import bgHome from "../img/bghome.png"
 export default function home(){
 
 
@@ -7,7 +8,7 @@ export default function home(){
         <>
             <main>
 
-                <img src="img/bghome.png" alt="image de fond" />
+                <img src={bgHome} alt="image de fond" />
 
                 <div className="coran-and-hadith ">
                     <Link to="/coran" className="coran animate__animated animate__fadeInLeft">

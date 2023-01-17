@@ -1,3 +1,4 @@
+
 .searchCoran{
     display: flex;
     flex-direction: column;
@@ -21,6 +22,7 @@
     display: flex;
     justify-content: center;
     padding: 15px;
+    margin-bottom: 25px;
     border-radius: 5px 5px 5px 5px;
     -webkit-border-radius: 5px 5px 5px 5px;
     -moz-border-radius: 5px 5px 5px 5px;
@@ -50,5 +52,17 @@
 
 .ayah p{
     font-family: sans-serif;
+}
+.searchbar{
+    padding: 25px;
+}
+.searchbar input{
+    background: none;
+    padding: 11px 30px;
+    width: 400px;
+}
+
+.searchbar img{
+    margin-right: -20px;
 }
 

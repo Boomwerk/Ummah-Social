@@ -63,7 +63,7 @@ function SearchAyah(){
     return (
         <div className="searchCoran">
            
-           <h1>Rechercher dans le coran</h1>
+           <h2>Rechercher dans le coran</h2>
             
             <div className="searchbar">
 

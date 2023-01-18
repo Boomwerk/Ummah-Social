@@ -2,6 +2,11 @@
 *{
     font-family: 'Lily Script One', cursive;
 }
+
+input[type="search"]{
+    -webkit-appearance: none
+}
+
 @import 'nav.css';
 @import 'home.css';
 @import 'footer.css';

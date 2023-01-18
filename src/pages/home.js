@@ -7,7 +7,7 @@ export default function home(){
     return (
         <>
             <main>
-
+                
                 <img src={bgHome} alt="image de fond" className='bghome'/>
 
                 <div className="coran-and-hadith ">

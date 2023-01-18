@@ -65,6 +65,8 @@
     background: none;
     padding: 11px 30px;
     width: 100%;
+    border: 2px solid grey;
+    border-radius: 8px;
 }
 
 .searchbar img{

@@ -119,9 +119,9 @@ section{
 }
 
 
-@media screen and (max-width:850px) {
+@media screen and (max-width: 850px) {
     .bg-coran img{
-        width: 100%;
+        width: 270px;
     }
 }
 

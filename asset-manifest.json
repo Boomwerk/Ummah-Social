@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Ummah-Social/static/css/main.bdb6c4b9.css",
-    "main.js": "/Ummah-Social/static/js/main.c662fb10.js",
+    "main.css": "/Ummah-Social/static/css/main.632b0fa8.css",
+    "main.js": "/Ummah-Social/static/js/main.ad32f425.js",
     "static/js/787.4c86d09c.chunk.js": "/Ummah-Social/static/js/787.4c86d09c.chunk.js",
     "static/media/bghome1.png": "/Ummah-Social/static/media/bghome1.751f2c4044a11608116e.png",
     "static/media/loading.jpg": "/Ummah-Social/static/media/loading.2187296e5d399b5c8373.jpg",
     "static/media/bgcoran.png": "/Ummah-Social/static/media/bgcoran.edf1254751da30013e83.png",
     "static/media/bghome.png": "/Ummah-Social/static/media/bghome.af1ba0a4b22f2aa2812f.png",
     "index.html": "/Ummah-Social/index.html",
-    "main.bdb6c4b9.css.map": "/Ummah-Social/static/css/main.bdb6c4b9.css.map",
-    "main.c662fb10.js.map": "/Ummah-Social/static/js/main.c662fb10.js.map",
+    "main.632b0fa8.css.map": "/Ummah-Social/static/css/main.632b0fa8.css.map",
+    "main.ad32f425.js.map": "/Ummah-Social/static/js/main.ad32f425.js.map",
     "787.4c86d09c.chunk.js.map": "/Ummah-Social/static/js/787.4c86d09c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bdb6c4b9.css",
-    "static/js/main.c662fb10.js"
+    "static/css/main.632b0fa8.css",
+    "static/js/main.ad32f425.js"
   ]
 }

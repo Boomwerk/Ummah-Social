@@ -18,7 +18,7 @@ function AleatoirAyah(){
         let surah = getRandomInt(1,114);
 
         setTimeout(() => {
-            fetch(`https://cdn.jsdelivr.net/gh/fawazahmed0/quran-api@1/editions/fra-shahnazsaidiben/${surah}.json`)
+            fetch(`https://cdn.jsdelivr.net/gh/fawazahmed0/quran-api@1/editions/fra-muhammadhameedu-la/${surah}.json`)
             .then((body) => {
                 return body.json();
             })

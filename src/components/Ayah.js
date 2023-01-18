@@ -40,7 +40,7 @@ class Ayah extends React.Component
 
             setTimeout(() => {
                 
-                fetch( `https://cdn.jsdelivr.net/gh/fawazahmed0/quran-api@1/editions/fra-shahnazsaidiben/${number}.json`)
+                fetch( `https://cdn.jsdelivr.net/gh/fawazahmed0/quran-api@1/editions/fra-muhammadhameedu-la/${number}.json`)
                 .then( (body) =>{ 
                     return body.json() 
                 })

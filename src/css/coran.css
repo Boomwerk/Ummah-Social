@@ -35,11 +35,11 @@ section{
     overflow-y: scroll;
     background: #E8EA98;
     width: 210px;
-    transition: 1s;
-    -webkit-transition: 1s;
-    -moz-transition: 1s;
-    -ms-transition: 1s;
-    -o-transition: 1s;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
 }
 
 .allSurat p {
@@ -87,7 +87,7 @@ section{
 .verset{
     overflow-y: scroll;
     width: 100%;
-    padding: 0px 31px;
+    padding: 0px 10px;
 }
 
 
@@ -107,7 +107,7 @@ section{
 }
 
 .verset p{
-    padding: 30px;
+    padding: 10px;
     border-bottom: 2px solid #aeaeae;
     font-family: sans-serif;
 }
@@ -122,6 +122,14 @@ section{
 @media screen and (max-width: 850px) {
     .bg-coran img{
         width: 270px;
+    }
+    .allSuratActive{
+        margin-left: 0 !important;
+        width: 100vw;
+    }
+
+    .allSurat div {
+        width: 90%;
     }
 }
 

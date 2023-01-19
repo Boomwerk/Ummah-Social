@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useLocation, useParams } from "react-router-dom";
 import searchImg from "../img/search.png";
 import loadingImg from "./../img/loading.jpg" 
 
@@ -11,6 +11,9 @@ function SearchAyah(){
     let [error, setError] = useState("")
     let [data , setData] = useState([])
     const [loading, setLoading] = useState(true);
+    const location = useLocation();
+
+    
 
     useEffect(() =>{
         fetch(`https://api.alquran.cloud/v1/search/${params.data}/all/fr`)

@@ -2,7 +2,8 @@ import { useState } from "react";
 import Surah from "../components/Surah";
 import Ayah from "../components/Ayah";
 import { useRef } from "react";
-import bgHome from "../img/bghome.png"
+import bgHome from "../img/bghome.png";
+import triangle from "../img/triangle.png"
 
 export default function Coran(){
 
@@ -38,7 +39,7 @@ export default function Coran(){
                     <Surah getAyah={getAyah} openSurat={openSurat}/>
                     
                 </div>
-                <div className="open" onClick={ () => openSurat()}> {isOpen ? "fermer":"Ouvrir"} </div>
+                <div className="open" onClick={ () => openSurat()}> <img src={triangle} alt="" /> </div>
                
                
             </div>

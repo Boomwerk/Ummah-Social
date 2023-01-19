@@ -23,9 +23,9 @@ export default function home(){
             </main>
             <div className="message">
 
-                <p>As salam aleikoum wa rahmatoulahi wa barakatouh, <br /><br /> ce site a pour but de vous permettre de lire le coran et recevoir des notification de verset chaque jours afin d’etre meilleur pour notre créateur aza wajel , il y aura de nombreuse mise a jours tous au long de la vie , et plus de possibilités, les pubs dans le site me permet d’etre rémunéré pour le travail effectué,
+                <p>As salam aleikoum wa rahmatoulahi wa barakatouh, <br /><br /> Ce site a pour but de vous permettre de lire le coran et recevoir des notifications de verset chaque jour, afin d’être meilleur pour notre créateur aza wajel . Il y aura de nombreuses mises à jour tous au long de la vie de ce site web et plus de possibilités.
                     
-                <br /><br /> merci de votre compréhension. qu’Allah vous préserve Amin</p>
+                <br /><br />Qu’Allah vous préserve Amin</p>
 
             </div>
         </>

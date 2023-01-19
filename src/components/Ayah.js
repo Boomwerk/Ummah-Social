@@ -62,7 +62,7 @@ class Ayah extends React.Component
         
         return <div>
 
-            <p className="loading">{this.state.loading ? <img src={imgLoading} alt="logo de chargement" width="80px"/> : ""}</p>
+            {this.state.loading ? <p className="loading"><img src={imgLoading} alt="logo de chargement" width="80px"/> </p>: ""}
             {this.state.ayahs.map((result) => {
                 
                 return <p key={result.verse}>{result.verse}. {result.text}</p>

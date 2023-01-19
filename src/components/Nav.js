@@ -1,15 +1,18 @@
 import { useState } from "react";
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 import Search from "./search";
 
 export default function Nav(){
 
     const [isOpen, setIsOpen] = useState(false);
+    const location= useLocation();
 
     function menuOpen (){
         setIsOpen(!isOpen);
 
     }
+
+    
     
   
     return (
@@ -17,9 +20,9 @@ export default function Nav(){
             <nav>
                 
                 <NavLink to="/" className="title">Ummah-Social</NavLink>
-
-                <Search/>
-
+                
+                {location.pathname.indexOf("searchAyah") != -1 ? "": <Search/>}
+                
                 <div className={`links ${isOpen ? "activemenu" : ""}`}>
                 
                     <NavLink to="/" className="">Accueil</NavLink>

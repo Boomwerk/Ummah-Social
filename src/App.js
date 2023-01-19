@@ -5,6 +5,7 @@ import Home from './pages/home';
 import Footer from './components/Footer';
 import Coran from './pages/coran';
 import SearchAyah from './pages/searchAyah';
+import Mentionlegal from './pages/mentionlegal';
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/coran" element={<Coran />} />
           <Route exact path="/searchAyah/:data" element={<SearchAyah />} />
-          
+          <Route path="/mention-legales" element={<Mentionlegal/>}></Route>
         </Routes>
       <Footer />
     </div>

@@ -18,17 +18,19 @@ class Surah extends React.Component{
             return body.json();
         })
         .then((datas) => {
+            console.log(datas)
             this.setState({surat: datas.data})
         })
     }
 
-    suratNumber(number){
-      this.props.getAyah(number);
+    suratNumber(number,surah){
+      this.props.getAyah(number,surah);
       this.props.openSurat();
     }
 
     render(){
-        return <div>{this.state.surat.map( result => <p key={result.number} onClick={() => this.suratNumber(result.number)} number={result.number}>{result.number}. {result.englishName}</p>)}</div>
+        
+        return <div>{this.state.surat.map( result => <p key={result.number} onClick={() => this.suratNumber(result.number,result.englishName)} number={result.number}>{result.number}. {result.englishName}</p>)}</div>
     }
 }
 

@@ -118,6 +118,10 @@ section{
     border-bottom: unset !important;
 }
 
+h2{
+    text-align: center;
+}
+
 
 @media screen and (max-width: 850px) {
     .bg-coran img{

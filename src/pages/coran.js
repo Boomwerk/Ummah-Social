@@ -9,6 +9,7 @@ export default function Coran(){
 
     const [isOpen, setIsOpen] = useState(true);
     const [ ayahNumber, setAyahNumber] = useState(1);
+    const [ surahName, setSurahName] = useState("Al-Faatiha");
     const scroll = useRef(null)
     
     function openSurat(){
@@ -17,8 +18,8 @@ export default function Coran(){
 
     }
 
-    function getAyah(number){
-       
+    function getAyah(number, surah){
+        setSurahName(surah);
         setAyahNumber(number);
         scroll.current.scrollTop = 0;
     }
@@ -45,7 +46,7 @@ export default function Coran(){
             </div>
             
             <div className="verset" ref={scroll}>
-                <Ayah number={ayahNumber} />
+                <Ayah number={ayahNumber} surah={surahName} />
                 
             </div>
 
